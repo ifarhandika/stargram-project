@@ -1,0 +1,46 @@
+.navbar-dashboard{
+    height: 10vh;
+    border-bottom: 2px solid grey;
+}
+
+.logo{
+    font-size: 1.5em;
+}
+
+.icon-main{
+    cursor: pointer;
+}
+.icon{
+    margin-right: 15px;
+}
+
+.menu{
+    position: absolute;
+    top: 60px;
+    right: 150px;
+    width: 200px;
+    padding: 10px 10px;
+    background: grey;
+    border-radius: 15px;
+    transition: 0.5s;
+
+    div{
+        position: absolute;
+        top: -5px;
+        right: 16px;
+        width: 20px;
+        height: 20px;
+        background: grey;
+        transform: rotate(45deg);
+    }
+
+    li{
+        a{
+            color: #000;
+        }
+    }
+}
+
+.menu.hidden{
+    display: none;
+}
